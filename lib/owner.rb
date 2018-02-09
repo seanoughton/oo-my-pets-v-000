@@ -62,10 +62,6 @@ class Owner
   end
 
   def sell_pets()
-    #@pets.each do |array|
-      #array.clear
-    #end
-
     self.change_pets_mood(:dogs,"nervous")
     self.change_pets_mood(:cats,"nervous")
     self.change_pets_mood(:fishes,"nervous")
