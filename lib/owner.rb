@@ -22,4 +22,7 @@ class Owner
     self.all.length
   end
 
+  def species()
+  end
+
 end
