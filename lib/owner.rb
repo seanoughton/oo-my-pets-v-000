@@ -69,7 +69,7 @@ class Owner
   end
 
   def list_pets()
-    fishes = :fishes.size
+    fishes = :fishes.length
     dogs = :dogs.size
     cats = :cats.size
     "I have #{fishes} fish, #{dogs} dog(s), and #{cats} cat(s)."
