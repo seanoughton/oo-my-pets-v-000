@@ -69,9 +69,6 @@ class Owner
   end
 
   def list_pets()
-    #@pets.each do |array|
-      #array.clear
-    #end
     fishes = :fishes.size
     dogs = :dogs.size
     cats = :cats.size
