@@ -66,7 +66,9 @@ class Owner
     self.change_pets_mood(:cats,"nervous")
     self.change_pets_mood(:fishes,"nervous")
     @pets.clear
+  end
 
+  def list_pets()
   end
 
 end
