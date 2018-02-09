@@ -61,4 +61,7 @@ class Owner
     end
   end
 
+  def sells_pets()
+  end
+
 end
