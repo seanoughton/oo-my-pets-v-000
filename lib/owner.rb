@@ -28,7 +28,8 @@ class Owner
     "I am a #{@species}."
   end
 
-
+  def buy_fish()
+  end
 
 
 end
