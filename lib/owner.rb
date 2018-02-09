@@ -43,6 +43,12 @@ class Owner
     @pets[:dogs] << new_dog
   end
 
+  def change_pets_mood(key)
+    @pets[key].each do |animal|
+        animal.mood = "happy"
+    end
+  end
+
   def walk_dogs()
     @pets[:dogs].each do |dog|
         dog.mood = "happy"
@@ -62,6 +68,7 @@ class Owner
   end
 
   def sells_pets()
+
   end
 
 end
