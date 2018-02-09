@@ -45,7 +45,7 @@ class Owner
 
   def change_pets_mood(key,value)
     @pets[key].each do |animal|
-        animal.mood = "happy"
+        animal.mood = value
     end
   end
 
