@@ -1,6 +1,6 @@
 class Owner
 
-  
+
   attr_reader :species
 
   @@all = []
@@ -21,6 +21,9 @@ class Owner
 
   def self.count()
     self.all.length
+  end
+
+  def say_species()
   end
 
 
