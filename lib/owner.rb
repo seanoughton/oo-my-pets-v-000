@@ -8,7 +8,7 @@ class Owner
     @name = name
   end
 
-  def add_owner
+  def add
     @@all << self
   end
 
