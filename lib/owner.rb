@@ -72,6 +72,9 @@ class Owner
     #@pets.each do |array|
       #array.clear
     #end
+    fish = :fishes.size
+    dogs = :dogs.size
+    cats = :cats.size
     "I have 2 fish, 3 dog(s), and 1 cat(s)."
   end
 
