@@ -61,8 +61,8 @@ class Owner
     self.change_pets_mood(:fishes)
   end
 
-  #def sells_pets()
+  def sells_pets()
 
-  #end
+  end
 
 end
