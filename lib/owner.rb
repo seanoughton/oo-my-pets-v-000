@@ -50,15 +50,15 @@ class Owner
   end
 
   def walk_dogs()
-    self.change_pets_mood(:dogs)
+    self.change_pets_mood(:dogs,"happy")
   end
 
   def play_with_cats()
-    self.change_pets_mood(:cats)
+    self.change_pets_mood(:cats,"happy")
   end
 
   def feed_fish()
-    self.change_pets_mood(:fishes)
+    self.change_pets_mood(:fishes,"happy")
   end
 
   def sells_pets()
